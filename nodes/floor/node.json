@@ -1,0 +1,23 @@
+{
+  "name": "floor",
+  "ns": "math",
+  "description": "Computes the largest integer less than or equal to a number",
+  "phrases": {
+    "active": "Flooring {input.x}"
+  },
+  "ports": {
+    "input": {
+      "x": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

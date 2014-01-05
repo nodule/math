@@ -1,0 +1,28 @@
+{
+  "name": "atan2",
+  "ns": "math",
+  "description": "Computes the arctangent of the quotient of the inputs.",
+  "phrases": {
+    "active": "Computing arctangent value for {input.x} and {input.y}"
+  },
+  "ports": {
+    "input": {
+      "x": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      },
+      "y": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

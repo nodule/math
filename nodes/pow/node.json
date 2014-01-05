@@ -1,0 +1,28 @@
+{
+  "name": "pow",
+  "ns": "math",
+  "description": "Computes base to the exponent power.",
+  "phrases": {
+    "active": "Pow {input.x} and {input.y}"
+  },
+  "ports": {
+    "input": {
+      "x": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      },
+      "y": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "cos",
+  "ns": "math",
+  "description": "Computes the cosine of a number.",
+  "phrases": {
+    "active": "Computing cosine value for {input.x}"
+  },
+  "ports": {
+    "input": {
+      "x": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "exp",
+  "ns": "math",
+  "description": "Computes Ex, where x is the argument, and E is Euler's constant (2.718...), the base of the natural logarithm..",
+  "phrases": {
+    "active": "Computing Ex value for {input.x}"
+  },
+  "ports": {
+    "input": {
+      "x": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

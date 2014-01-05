@@ -1,0 +1,23 @@
+{
+  "name": "acos",
+  "ns": "math",
+  "description": "Computes the arccosine of a number.",
+  "phrases": {
+    "active": "Computing arccosine value for {input.x}"
+  },
+  "ports": {
+    "input": {
+      "x": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

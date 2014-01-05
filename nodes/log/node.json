@@ -1,0 +1,23 @@
+{
+  "name": "log",
+  "ns": "math",
+  "description": "Computes the natural logarithm (loge, also ln) of a number",
+  "phrases": {
+    "active": "Determining natural logarithm for {input.x}"
+  },
+  "ports": {
+    "input": {
+      "x": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

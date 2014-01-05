@@ -1,0 +1,23 @@
+{
+  "name": "sqrt",
+  "ns": "math",
+  "description": "Computes the positive square root of a number.",
+  "phrases": {
+    "active": "Getting square root"
+  },
+  "ports": {
+    "input": {
+      "x": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

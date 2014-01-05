@@ -1,0 +1,23 @@
+{
+  "name": "tan",
+  "ns": "math",
+  "description": "Computes the tangent of a number.",
+  "phrases": {
+    "active": "Getting tangent"
+  },
+  "ports": {
+    "input": {
+      "x": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

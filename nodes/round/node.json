@@ -1,0 +1,23 @@
+{
+  "name": "round",
+  "ns": "math",
+  "description": "Computes the value of a number rounded to the nearest integer.",
+  "phrases": {
+    "active": "Rounding number"
+  },
+  "ports": {
+    "input": {
+      "x": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

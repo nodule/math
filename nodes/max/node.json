@@ -1,0 +1,23 @@
+{
+  "name": "max",
+  "ns": "math",
+  "description": "Determines the largest of zero or more numbers",
+  "phrases": {
+    "active": "Determining max value"
+  },
+  "ports": {
+    "input": {
+      "numbers": {
+        "title": "Numbers",
+        "type": "array",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

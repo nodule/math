@@ -1,0 +1,23 @@
+{
+  "name": "min",
+  "ns": "math",
+  "description": "Determines the smallest of zero or more numbers",
+  "phrases": {
+    "active": "Determining min value"
+  },
+  "ports": {
+    "input": {
+      "numbers": {
+        "title": "Numbers",
+        "type": "array",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}

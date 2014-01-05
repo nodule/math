@@ -1,0 +1,23 @@
+{
+  "name": "abs",
+  "ns": "math",
+  "description": "Computes the absolute value of a number.",
+  "phrases": {
+    "active": "Computing absolute value for {input.x}"
+  },
+  "ports": {
+    "input": {
+      "x": {
+        "title": "Number",
+        "type": "number",
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "out",
+        "type": "number"
+      }
+    }
+  }
+}
