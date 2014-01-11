@@ -56,6 +56,35 @@
       "fn": "output.out = Math.acos(input.x)\n"
     },
     {
+      "name": "add",
+      "ns": "math",
+      "description": "Computes x + y",
+      "phrases": {
+        "active": "Computing addition"
+      },
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          },
+          "y": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
+      "fn": "output.out = input.x + input.y\n"
+    },
+    {
       "name": "asin",
       "ns": "math",
       "description": "Computes the arcsine of a number.",
@@ -181,6 +210,35 @@
       "fn": "output.out = Math.cos(input.x)\n"
     },
     {
+      "name": "divide",
+      "ns": "math",
+      "description": "Computes x / y",
+      "phrases": {
+        "active": "Dividing"
+      },
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          },
+          "y": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
+      "fn": "output.out = input.x / input.y\n"
+    },
+    {
       "name": "exp",
       "ns": "math",
       "description": "Computes Ex, where x is the argument, and E is Euler's constant (2.718...), the base of the natural logarithm..",
@@ -301,6 +359,35 @@
       "fn": "output.out = Math.min.apply(null, input.numbers)\n"
     },
     {
+      "name": "multiply",
+      "ns": "math",
+      "description": "Computes x * y",
+      "phrases": {
+        "active": "Multiplying"
+      },
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          },
+          "y": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
+      "fn": "output.out = input.x * input.y\n"
+    },
+    {
       "name": "pow",
       "ns": "math",
       "description": "Computes base to the exponent power.",
@@ -394,6 +481,35 @@
         }
       },
       "fn": "output.out = Math.sqrt(input.x)\n"
+    },
+    {
+      "name": "substract",
+      "ns": "math",
+      "description": "Computes x - y",
+      "phrases": {
+        "active": "Substracting"
+      },
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          },
+          "y": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
+      "fn": "output.out = input.x - input.y\n"
     },
     {
       "name": "tan",
