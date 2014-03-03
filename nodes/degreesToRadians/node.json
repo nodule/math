@@ -1,0 +1,25 @@
+{
+  "name": "degreesToRadians",
+  "ns": "math",
+  "description": "Convert degrees to radians",
+  "async": true,
+  "phrases": {
+    "active": "Converting degrees to radians"
+  },
+  "ports": {
+    "input": {
+      "in": {
+        "title": "Degrees",
+        "type": "number",
+        "async": true,
+        "required": true
+      }
+    },
+    "output": {
+      "out": {
+        "title": "Radians",
+        "type": "number"
+      }
+    }
+  }
+}

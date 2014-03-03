@@ -8,339 +8,359 @@
   },
   "nodes": [
     {
-      "name": "abs",
-      "ns": "math",
-      "description": "Computes the absolute value of a number.",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Computing absolute value for {input.x}"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes the absolute value of a number.",
+      "ns": "math",
+      "name": "abs",
       "fn": "output.out = Math.abs(input.x)\n"
     },
     {
-      "name": "acos",
-      "ns": "math",
-      "description": "Computes the arccosine of a number.",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Computing arccosine value for {input.x}"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes the arccosine of a number.",
+      "ns": "math",
+      "name": "acos",
       "fn": "output.out = Math.acos(input.x)\n"
     },
     {
-      "name": "add",
-      "ns": "math",
-      "description": "Computes x + y",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          },
+          "y": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Computing addition"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          },
-          "y": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes x + y",
+      "ns": "math",
+      "name": "add",
       "fn": "output.out = input.x + input.y\n"
     },
     {
-      "name": "asin",
-      "ns": "math",
-      "description": "Computes the arcsine of a number.",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Computing arcsine value for {input.x}"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes the arcsine of a number.",
+      "ns": "math",
+      "name": "asin",
       "fn": "output.out = Math.asin(input.x)\n"
     },
     {
-      "name": "atan",
-      "ns": "math",
-      "description": "Computes the arctangent of a number.",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Computing arctangent value for {input.x}"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes the arctangent of a number.",
+      "ns": "math",
+      "name": "atan",
       "fn": "output.out = Math.atan(input.x)\n"
     },
     {
-      "name": "atan2",
-      "ns": "math",
-      "description": "Computes the arctangent of the quotient of the inputs.",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          },
+          "y": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Computing arctangent value for {input.x} and {input.y}"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          },
-          "y": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes the arctangent of the quotient of the inputs.",
+      "ns": "math",
+      "name": "atan2",
       "fn": "output.out = Math.atan2(input.x, input.y)\n"
     },
     {
-      "name": "ceil",
-      "ns": "math",
-      "description": "Computes the smallest integer greater than or equal to a number.",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Ceiling {input.x}"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes the smallest integer greater than or equal to a number.",
+      "ns": "math",
+      "name": "ceil",
       "fn": "output.out = Math.ceil(input.x)\n"
     },
     {
-      "name": "cos",
-      "ns": "math",
-      "description": "Computes the cosine of a number.",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Computing cosine value for {input.x}"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes the cosine of a number.",
+      "ns": "math",
+      "name": "cos",
       "fn": "output.out = Math.cos(input.x)\n"
     },
     {
-      "name": "divide",
+      "ports": {
+        "input": {
+          "in": {
+            "title": "Degrees",
+            "type": "number",
+            "async": true,
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "Radians",
+            "type": "number"
+          }
+        }
+      },
+      "phrases": {
+        "active": "Converting degrees to radians"
+      },
+      "async": true,
+      "description": "Convert degrees to radians",
       "ns": "math",
-      "description": "Computes x / y",
+      "name": "degreesToRadians",
+      "fn": "on.input.in = function() {\n\n  output( { out: data * (Math.PI / 180) } );\n\n}\n"
+    },
+    {
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          },
+          "y": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Dividing"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          },
-          "y": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes x / y",
+      "ns": "math",
+      "name": "divide",
       "fn": "output.out = input.x / input.y\n"
     },
     {
-      "name": "exp",
-      "ns": "math",
-      "description": "Computes Ex, where x is the argument, and E is Euler's constant (2.718...), the base of the natural logarithm..",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Computing Ex value for {input.x}"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes Ex, where x is the argument, and E is Euler's constant (2.718...), the base of the natural logarithm..",
+      "ns": "math",
+      "name": "exp",
       "fn": "output.out = Math.exp(input.x)\n"
     },
     {
-      "name": "floor",
-      "ns": "math",
-      "description": "Computes the largest integer less than or equal to a number",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Flooring {input.x}"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes the largest integer less than or equal to a number",
+      "ns": "math",
+      "name": "floor",
       "fn": "output.out = Math.floor(input.x)\n"
     },
     {
-      "name": "log",
-      "ns": "math",
-      "description": "Computes the natural logarithm (loge, also ln) of a number",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Determining natural logarithm for {input.x}"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes the natural logarithm (loge, also ln) of a number",
+      "ns": "math",
+      "name": "log",
       "fn": "output.out = Math.log(input.x)\n"
     },
     {
-      "name": "max",
-      "ns": "math",
-      "description": "Determines the largest of zero or more numbers",
+      "ports": {
+        "input": {
+          "numbers": {
+            "title": "Numbers",
+            "type": "array",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Determining max value"
       },
-      "ports": {
-        "input": {
-          "numbers": {
-            "title": "Numbers",
-            "type": "array",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Determines the largest of zero or more numbers",
+      "ns": "math",
+      "name": "max",
       "fn": "output.out = Math.max.apply(null, input.numbers)\n"
     },
     {
-      "name": "min",
-      "ns": "math",
-      "description": "Determines the smallest of zero or more numbers",
-      "phrases": {
-        "active": "Determining min value"
-      },
       "ports": {
         "input": {
           "numbers": {
@@ -356,44 +376,44 @@
           }
         }
       },
+      "phrases": {
+        "active": "Determining min value"
+      },
+      "description": "Determines the smallest of zero or more numbers",
+      "ns": "math",
+      "name": "min",
       "fn": "output.out = Math.min.apply(null, input.numbers)\n"
     },
     {
-      "name": "multiply",
-      "ns": "math",
-      "description": "Computes x * y",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          },
+          "y": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Multiplying"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          },
-          "y": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes x * y",
+      "ns": "math",
+      "name": "multiply",
       "fn": "output.out = input.x * input.y\n"
     },
     {
-      "name": "pow",
-      "ns": "math",
-      "description": "Computes base to the exponent power.",
-      "phrases": {
-        "active": "Pow {input.x} and {input.y}"
-      },
       "ports": {
         "input": {
           "x": {
@@ -414,15 +434,41 @@
           }
         }
       },
+      "phrases": {
+        "active": "Pow {input.x} and {input.y}"
+      },
+      "description": "Computes base to the exponent power.",
+      "ns": "math",
+      "name": "pow",
       "fn": "output.out = Math.pow(input.x, input.y)\n"
     },
     {
-      "name": "random",
-      "ns": "math",
-      "description": "Outputs a pseudo-random number between 0 and 1.",
-      "phrases": {
-        "active": "Providing a random number..."
+      "ports": {
+        "input": {
+          "in": {
+            "title": "Radians",
+            "type": "number",
+            "async": true,
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "Degrees",
+            "type": "number"
+          }
+        }
       },
+      "phrases": {
+        "active": "Converting radians to degrees"
+      },
+      "async": true,
+      "description": "Convert Radians to degrees",
+      "ns": "math",
+      "name": "radiansToDegrees",
+      "fn": "on.input.in = function() {\n\n  output( { out: data * (180/Math.PI) } );\n\n}\n"
+    },
+    {
       "ports": {
         "input": {},
         "output": {
@@ -432,39 +478,39 @@
           }
         }
       },
+      "phrases": {
+        "active": "Providing a random number..."
+      },
+      "description": "Outputs a pseudo-random number between 0 and 1.",
+      "ns": "math",
+      "name": "random",
       "fn": "output.out = Math.random()\n"
     },
     {
-      "name": "round",
-      "ns": "math",
-      "description": "Computes the value of a number rounded to the nearest integer.",
+      "ports": {
+        "input": {
+          "x": {
+            "title": "Number",
+            "type": "number",
+            "required": true
+          }
+        },
+        "output": {
+          "out": {
+            "title": "out",
+            "type": "number"
+          }
+        }
+      },
       "phrases": {
         "active": "Rounding number"
       },
-      "ports": {
-        "input": {
-          "x": {
-            "title": "Number",
-            "type": "number",
-            "required": true
-          }
-        },
-        "output": {
-          "out": {
-            "title": "out",
-            "type": "number"
-          }
-        }
-      },
+      "description": "Computes the value of a number rounded to the nearest integer.",
+      "ns": "math",
+      "name": "round",
       "fn": "output.out = Math.round(input.x)\n"
     },
     {
-      "name": "sqrt",
-      "ns": "math",
-      "description": "Computes the positive square root of a number.",
-      "phrases": {
-        "active": "Getting square root"
-      },
       "ports": {
         "input": {
           "x": {
@@ -480,15 +526,15 @@
           }
         }
       },
+      "phrases": {
+        "active": "Getting square root"
+      },
+      "description": "Computes the positive square root of a number.",
+      "ns": "math",
+      "name": "sqrt",
       "fn": "output.out = Math.sqrt(input.x)\n"
     },
     {
-      "name": "substract",
-      "ns": "math",
-      "description": "Computes x - y",
-      "phrases": {
-        "active": "Substracting"
-      },
       "ports": {
         "input": {
           "x": {
@@ -509,15 +555,15 @@
           }
         }
       },
+      "phrases": {
+        "active": "Substracting"
+      },
+      "description": "Computes x - y",
+      "ns": "math",
+      "name": "substract",
       "fn": "output.out = input.x - input.y\n"
     },
     {
-      "name": "tan",
-      "ns": "math",
-      "description": "Computes the tangent of a number.",
-      "phrases": {
-        "active": "Getting tangent"
-      },
       "ports": {
         "input": {
           "x": {
@@ -533,6 +579,12 @@
           }
         }
       },
+      "phrases": {
+        "active": "Getting tangent"
+      },
+      "description": "Computes the tangent of a number.",
+      "ns": "math",
+      "name": "tan",
       "fn": "output.out = Math.tan(input.x)\n"
     }
   ],
