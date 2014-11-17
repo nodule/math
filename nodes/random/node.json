@@ -6,8 +6,7 @@
     "active": "Providing a random number..."
   },
   "ports": {
-    "input": {
-    },
+    "input": {},
     "output": {
       "out": {
         "title": "out",
