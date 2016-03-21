@@ -1,1 +1,1 @@
-output.out = Math.cos(input.x)
+output.out = Math.cos($.x)

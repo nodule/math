@@ -1,1 +1,1 @@
-output.out = Math.log(input.x)
+output.out = Math.log($.x)

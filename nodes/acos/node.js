@@ -1,1 +1,1 @@
-output.out = Math.acos(input.x)
+output.out = Math.acos($.x)

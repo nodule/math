@@ -1,1 +1,1 @@
-output.out = Math.tan(input.x)
+output.out = Math.tan($.x)

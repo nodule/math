@@ -1,1 +1,1 @@
-output.out = Math.ceil(input.x)
+output.out = Math.ceil($.x)

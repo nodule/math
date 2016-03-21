@@ -1,1 +1,1 @@
-output.out = Math.pow(input.x, input.y)
+output.out = Math.pow($.x, $.y)

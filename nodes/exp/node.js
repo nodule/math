@@ -1,1 +1,1 @@
-output.out = Math.exp(input.x)
+output.out = Math.exp($.x)

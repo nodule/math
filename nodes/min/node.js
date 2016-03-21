@@ -1,1 +1,1 @@
-output.out = Math.min.apply(null, input.numbers)
+output.out = Math.min.apply(null, $.numbers)

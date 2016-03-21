@@ -1,1 +1,1 @@
-output.out = input.x * input.y
+output.out = $.x * $.y

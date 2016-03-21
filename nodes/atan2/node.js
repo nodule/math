@@ -1,1 +1,1 @@
-output.out = Math.atan2(input.x, input.y)
+output.out = Math.atan2($.x, $.y)

@@ -1,1 +1,1 @@
-output.out = Math.round(input.x)
+output.out = Math.round($.x)

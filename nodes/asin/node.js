@@ -1,1 +1,1 @@
-output.out = Math.asin(input.x)
+output.out = Math.asin($.x)

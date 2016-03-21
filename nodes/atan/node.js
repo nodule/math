@@ -1,1 +1,1 @@
-output.out = Math.atan(input.x)
+output.out = Math.atan($.x)

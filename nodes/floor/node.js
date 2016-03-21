@@ -1,1 +1,1 @@
-output.out = Math.floor(input.x)
+output.out = Math.floor($.x)

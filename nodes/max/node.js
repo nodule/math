@@ -1,1 +1,1 @@
-output.out = Math.max.apply(null, input.numbers)
+output.out = Math.max.apply(null, $.numbers)

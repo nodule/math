@@ -1,1 +1,1 @@
-output.out = Math.abs(input.x)
+output.out = Math.abs($.x)

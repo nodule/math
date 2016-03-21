@@ -1,1 +1,1 @@
-output.out = Math.sqrt(input.x)
+output.out = Math.sqrt($.x)
