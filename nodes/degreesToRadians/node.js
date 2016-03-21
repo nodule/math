@@ -1,5 +1,3 @@
 on.input.in = function() {
-
-  output( { out: data * (Math.PI / 180) } );
-
+  output( { out: input.in * (Math.PI / 180) } );
 }
