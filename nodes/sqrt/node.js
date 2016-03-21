@@ -1,1 +1,1 @@
-output.out = Math.sqrt($.x)
+output.out = $.create(Math.sqrt($.x))

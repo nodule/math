@@ -1,1 +1,1 @@
-output.out = Math.atan($.x)
+output.out = $.create(Math.atan($.x))

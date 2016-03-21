@@ -1,1 +1,1 @@
-output.out = Math.ceil($.x)
+output.out = $.create(Math.ceil($.x))

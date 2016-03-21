@@ -1,1 +1,1 @@
-output.out = Math.abs($.x)
+output.out = $.create(Math.abs($.x))

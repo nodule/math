@@ -1,1 +1,1 @@
-output.out = Math.acos($.x)
+output.out = $.create(Math.acos($.x))

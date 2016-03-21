@@ -1,1 +1,1 @@
-output.out = Math.tan($.x)
+output.out = $.create(Math.tan($.x))

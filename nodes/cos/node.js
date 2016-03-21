@@ -1,1 +1,1 @@
-output.out = Math.cos($.x)
+output.out = $.create(Math.cos($.x))

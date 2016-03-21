@@ -1,1 +1,1 @@
-output.out = Math.log($.x)
+output.out = $.create(Math.log($.x))

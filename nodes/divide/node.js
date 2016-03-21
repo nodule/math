@@ -1,1 +1,1 @@
-output.out = $.x / $.y
+output.out = $.create($.x / $.y)

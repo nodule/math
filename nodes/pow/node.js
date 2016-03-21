@@ -1,1 +1,1 @@
-output.out = Math.pow($.x, $.y)
+output.out = $.create(Math.pow($.x, $.y))

@@ -1,3 +1,3 @@
 on.input.in = function() {
-  output( { out: $.in * (180/Math.PI) } );
+  output( { out: $.write('in', $.in * (180/Math.PI)) } );
 }

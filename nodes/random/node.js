@@ -1,1 +1,1 @@
-output.out = Math.random()
+output.out = $.create(Math.random())

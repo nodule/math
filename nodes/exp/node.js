@@ -1,1 +1,1 @@
-output.out = Math.exp($.x)
+output.out = $.create(Math.exp($.x))

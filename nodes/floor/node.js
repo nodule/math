@@ -1,1 +1,1 @@
-output.out = Math.floor($.x)
+output.out = $.create(Math.floor($.x))

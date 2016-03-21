@@ -1,1 +1,1 @@
-output.out = Math.round($.x)
+output.out = $.create(Math.round($.x))

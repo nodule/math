@@ -1,1 +1,1 @@
-output.out = Math.asin($.x)
+output.out = $.create(Math.asin($.x))

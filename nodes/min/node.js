@@ -1,1 +1,1 @@
-output.out = Math.min.apply(null, $.numbers)
+output.out = $.create(Math.min.apply(null, $.numbers))
