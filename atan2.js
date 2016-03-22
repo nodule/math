@@ -25,9 +25,9 @@ module.exports = {
       }
     }
   },
-  fn: function atan2(input, output, state, done, cb, on) {
+  fn: function atan2(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.atan2(input.x, input.y)
+      output.out = $.create(Math.atan2($.x, $.y))
     }.call(this);
     return {
       output: output,

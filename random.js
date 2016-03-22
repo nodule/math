@@ -14,9 +14,9 @@ module.exports = {
       }
     }
   },
-  fn: function random(input, output, state, done, cb, on) {
+  fn: function random(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.random()
+      output.out = $.create(Math.random())
     }.call(this);
     return {
       output: output,

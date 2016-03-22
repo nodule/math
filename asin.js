@@ -20,9 +20,9 @@ module.exports = {
       }
     }
   },
-  fn: function asin(input, output, state, done, cb, on) {
+  fn: function asin(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.asin(input.x)
+      output.out = $.create(Math.asin($.x))
     }.call(this);
     return {
       output: output,

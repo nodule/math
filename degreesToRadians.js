@@ -16,7 +16,7 @@ module.exports = {
         fn: function __IN__(data, x, source, state, input, output) {
           var r = function() {
             output({
-              out: data * (Math.PI / 180)
+              out: $.write('in', $.in * (Math.PI / 180))
             });
           }.call(this);
           return {

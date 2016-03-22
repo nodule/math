@@ -20,9 +20,9 @@ module.exports = {
       }
     }
   },
-  fn: function log(input, output, state, done, cb, on) {
+  fn: function log(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.log(input.x)
+      output.out = $.create(Math.log($.x))
     }.call(this);
     return {
       output: output,

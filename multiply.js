@@ -25,9 +25,9 @@ module.exports = {
       }
     }
   },
-  fn: function multiply(input, output, state, done, cb, on) {
+  fn: function multiply(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = input.x * input.y
+      output.out = $.create($.x * $.y)
     }.call(this);
     return {
       output: output,

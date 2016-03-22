@@ -20,9 +20,9 @@ module.exports = {
       }
     }
   },
-  fn: function floor(input, output, state, done, cb, on) {
+  fn: function floor(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.floor(input.x)
+      output.out = $.create(Math.floor($.x))
     }.call(this);
     return {
       output: output,

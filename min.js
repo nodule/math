@@ -20,9 +20,9 @@ module.exports = {
       }
     }
   },
-  fn: function min(input, output, state, done, cb, on) {
+  fn: function min(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.min.apply(null, input.numbers)
+      output.out = $.create(Math.min.apply(null, $.numbers))
     }.call(this);
     return {
       output: output,

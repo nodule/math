@@ -20,9 +20,9 @@ module.exports = {
       }
     }
   },
-  fn: function max(input, output, state, done, cb, on) {
+  fn: function max(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.max.apply(null, input.numbers)
+      output.out = $.create(Math.max.apply(null, $.numbers))
     }.call(this);
     return {
       output: output,

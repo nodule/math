@@ -20,9 +20,9 @@ module.exports = {
       }
     }
   },
-  fn: function tan(input, output, state, done, cb, on) {
+  fn: function tan(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.tan(input.x)
+      output.out = $.create(Math.tan($.x))
     }.call(this);
     return {
       output: output,

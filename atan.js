@@ -20,9 +20,9 @@ module.exports = {
       }
     }
   },
-  fn: function atan(input, output, state, done, cb, on) {
+  fn: function atan(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.atan(input.x)
+      output.out = $.create(Math.atan($.x))
     }.call(this);
     return {
       output: output,

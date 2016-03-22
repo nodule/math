@@ -20,9 +20,9 @@ module.exports = {
       }
     }
   },
-  fn: function abs(input, output, state, done, cb, on) {
+  fn: function abs(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.abs(input.x)
+      output.out = $.create(Math.abs($.x))
     }.call(this);
     return {
       output: output,

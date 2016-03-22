@@ -20,9 +20,9 @@ module.exports = {
       }
     }
   },
-  fn: function round(input, output, state, done, cb, on) {
+  fn: function round(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.round(input.x)
+      output.out = $.create(Math.round($.x))
     }.call(this);
     return {
       output: output,

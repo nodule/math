@@ -20,9 +20,9 @@ module.exports = {
       }
     }
   },
-  fn: function sqrt(input, output, state, done, cb, on) {
+  fn: function sqrt(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.sqrt(input.x)
+      output.out = $.create(Math.sqrt($.x))
     }.call(this);
     return {
       output: output,

@@ -20,9 +20,9 @@ module.exports = {
       }
     }
   },
-  fn: function ceil(input, output, state, done, cb, on) {
+  fn: function ceil(input, $, output, state, done, cb, on) {
     var r = function() {
-      output.out = Math.ceil(input.x)
+      output.out = $.create(Math.ceil($.x))
     }.call(this);
     return {
       output: output,

@@ -29,7 +29,7 @@
       "description": "Computes the absolute value of a number.",
       "ns": "math",
       "name": "abs",
-      "fn": "output.out = Math.abs(input.x)\n"
+      "fn": "output.out = $.create(Math.abs($.x))\n"
     },
     {
       "ports": {
@@ -53,7 +53,7 @@
       "description": "Computes the arccosine of a number.",
       "ns": "math",
       "name": "acos",
-      "fn": "output.out = Math.acos(input.x)\n"
+      "fn": "output.out = $.create(Math.acos($.x))\n"
     },
     {
       "ports": {
@@ -82,7 +82,7 @@
       "description": "Computes x + y",
       "ns": "math",
       "name": "add",
-      "fn": "output.out = input.x + input.y\n"
+      "fn": "output.out = $.create($.x + $.y)\n"
     },
     {
       "ports": {
@@ -106,7 +106,7 @@
       "description": "Computes the arcsine of a number.",
       "ns": "math",
       "name": "asin",
-      "fn": "output.out = Math.asin(input.x)\n"
+      "fn": "output.out = $.create(Math.asin($.x))\n"
     },
     {
       "ports": {
@@ -130,7 +130,7 @@
       "description": "Computes the arctangent of a number.",
       "ns": "math",
       "name": "atan",
-      "fn": "output.out = Math.atan(input.x)\n"
+      "fn": "output.out = $.create(Math.atan($.x))\n"
     },
     {
       "ports": {
@@ -159,7 +159,7 @@
       "description": "Computes the arctangent of the quotient of the inputs.",
       "ns": "math",
       "name": "atan2",
-      "fn": "output.out = Math.atan2(input.x, input.y)\n"
+      "fn": "output.out = $.create(Math.atan2($.x, $.y))\n"
     },
     {
       "ports": {
@@ -183,7 +183,7 @@
       "description": "Computes the smallest integer greater than or equal to a number.",
       "ns": "math",
       "name": "ceil",
-      "fn": "output.out = Math.ceil(input.x)\n"
+      "fn": "output.out = $.create(Math.ceil($.x))\n"
     },
     {
       "ports": {
@@ -207,7 +207,7 @@
       "description": "Computes the cosine of a number.",
       "ns": "math",
       "name": "cos",
-      "fn": "output.out = Math.cos(input.x)\n"
+      "fn": "output.out = $.create(Math.cos($.x))\n"
     },
     {
       "ports": {
@@ -233,7 +233,7 @@
       "description": "Convert degrees to radians",
       "ns": "math",
       "name": "degreesToRadians",
-      "fn": "on.input.in = function() {\n\n  output( { out: data * (Math.PI / 180) } );\n\n}\n"
+      "fn": "on.input.in = function() {\n  output( { out: $.write('in', $.in * (Math.PI / 180)) } );\n}\n"
     },
     {
       "ports": {
@@ -262,7 +262,7 @@
       "description": "Computes x / y",
       "ns": "math",
       "name": "divide",
-      "fn": "output.out = input.x / input.y\n"
+      "fn": "output.out = $.create($.x / $.y)\n"
     },
     {
       "ports": {
@@ -286,7 +286,7 @@
       "description": "Computes Ex, where x is the argument, and E is Euler's constant (2.718...), the base of the natural logarithm..",
       "ns": "math",
       "name": "exp",
-      "fn": "output.out = Math.exp(input.x)\n"
+      "fn": "output.out = $.create(Math.exp($.x))\n"
     },
     {
       "ports": {
@@ -310,7 +310,7 @@
       "description": "Computes the largest integer less than or equal to a number",
       "ns": "math",
       "name": "floor",
-      "fn": "output.out = Math.floor(input.x)\n"
+      "fn": "output.out = $.create(Math.floor($.x))\n"
     },
     {
       "ports": {
@@ -334,7 +334,7 @@
       "description": "Computes the natural logarithm (loge, also ln) of a number",
       "ns": "math",
       "name": "log",
-      "fn": "output.out = Math.log(input.x)\n"
+      "fn": "output.out = $.create(Math.log($.x))\n"
     },
     {
       "ports": {
@@ -358,7 +358,7 @@
       "description": "Determines the largest of zero or more numbers",
       "ns": "math",
       "name": "max",
-      "fn": "output.out = Math.max.apply(null, input.numbers)\n"
+      "fn": "output.out = $.create(Math.max.apply(null, $.numbers))\n"
     },
     {
       "ports": {
@@ -382,7 +382,7 @@
       "description": "Determines the smallest of zero or more numbers",
       "ns": "math",
       "name": "min",
-      "fn": "output.out = Math.min.apply(null, input.numbers)\n"
+      "fn": "output.out = $.create(Math.min.apply(null, $.numbers))\n"
     },
     {
       "ports": {
@@ -411,7 +411,7 @@
       "description": "Computes x * y",
       "ns": "math",
       "name": "multiply",
-      "fn": "output.out = input.x * input.y\n"
+      "fn": "output.out = $.create($.x * $.y)\n"
     },
     {
       "ports": {
@@ -440,7 +440,7 @@
       "description": "Computes base to the exponent power.",
       "ns": "math",
       "name": "pow",
-      "fn": "output.out = Math.pow(input.x, input.y)\n"
+      "fn": "output.out = $.create(Math.pow($.x, $.y))\n"
     },
     {
       "ports": {
@@ -466,7 +466,7 @@
       "description": "Convert Radians to degrees",
       "ns": "math",
       "name": "radiansToDegrees",
-      "fn": "on.input.in = function() {\n\n  output( { out: data * (180/Math.PI) } );\n\n}\n"
+      "fn": "on.input.in = function() {\n  output( { out: $.write('in', $.in * (180/Math.PI)) } );\n}\n"
     },
     {
       "ports": {
@@ -484,7 +484,7 @@
       "description": "Outputs a pseudo-random number between 0 and 1.",
       "ns": "math",
       "name": "random",
-      "fn": "output.out = Math.random()\n"
+      "fn": "output.out = $.create(Math.random())\n"
     },
     {
       "ports": {
@@ -508,7 +508,7 @@
       "description": "Computes the value of a number rounded to the nearest integer.",
       "ns": "math",
       "name": "round",
-      "fn": "output.out = Math.round(input.x)\n"
+      "fn": "output.out = $.create(Math.round($.x))\n"
     },
     {
       "ports": {
@@ -532,7 +532,7 @@
       "description": "Computes the positive square root of a number.",
       "ns": "math",
       "name": "sqrt",
-      "fn": "output.out = Math.sqrt(input.x)\n"
+      "fn": "output.out = $.create(Math.sqrt($.x))\n"
     },
     {
       "ports": {
@@ -561,7 +561,7 @@
       "description": "Computes x - y",
       "ns": "math",
       "name": "substract",
-      "fn": "output.out = input.x - input.y\n"
+      "fn": "output.out = $.create($.x - $.y)\n"
     },
     {
       "ports": {
@@ -585,7 +585,7 @@
       "description": "Computes the tangent of a number.",
       "ns": "math",
       "name": "tan",
-      "fn": "output.out = Math.tan(input.x)\n"
+      "fn": "output.out = $.create(Math.tan($.x))\n"
     }
   ],
   "twigs": []
