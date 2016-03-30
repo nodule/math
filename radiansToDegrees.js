@@ -13,7 +13,7 @@ module.exports = {
         type: "number",
         async: true,
         required: true,
-        fn: function __IN__(data, x, source, state, input, output) {
+        fn: function __IN__(data, source, state, input, $, output) {
           var r = function() {
             output({
               out: $.write('in', $.in * (180 / Math.PI))
